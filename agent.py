@@ -12,7 +12,7 @@ import loggers as lg
 import time
 
 import matplotlib.pyplot as plt
-from IPython import display
+# from IPython import display
 import pylab as pl
 
 
@@ -206,8 +206,8 @@ class Agent():
 
 		plt.legend(['train_overall_loss', 'train_value_loss', 'train_policy_loss'], loc='lower left')
 
-		display.clear_output(wait=True)
-		display.display(pl.gcf())
+		# display.clear_output(wait=True)
+		# display.display(pl.gcf())
 		pl.gcf().clear()
 		time.sleep(1.0)
 
